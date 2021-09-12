@@ -3,9 +3,10 @@ title: "RMarkdown Visual Editor"
 author: "Business Science"
 date: "3/23/2021"
 output:
-  html_document:
-    theme: flatly
+  cleanrmd::html_document_clean:
+    theme: sakura-vader
     df_print: paged
+  word_document: default
   pdf_document: default
 ---
 
